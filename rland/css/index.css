@@ -1,0 +1,115 @@
+@import url(style.css);
+@font-face {
+    font-family: "Nanum Brush Script";
+    src: url("../font/NanumBrushScript-Regular.ttf");
+}
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Brush+Script&display=swap');
+
+.header-cafe-bg-box{
+    /* font-family: "newlec"; */
+    background-color: #D4BFA0;
+    background-image: url("../images/2.jpg");
+    background-repeat: no-repeat;
+    background-position: -245px;
+    background-size: cover;
+}
+.header{
+    /* background-color: #FF000099; */
+    background-image: url("../images/star.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+}
+
+.cafe{
+    height: 480px;
+    background-color: aqua;
+}
+
+.rland{
+    height: 530px;
+    background: url(../images/2.jpg) no-repeat left top;
+    overflow : scroll;
+    /* background-color: bisque; */
+}
+
+.spot{
+    height: 350px;
+    /* background: url("../images/b23.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; */
+    background: url("../images/b23.jpg") no-repeat center/cover;
+}
+
+.visited-review{
+
+}
+
+.blog{
+
+}
+
+.location{
+
+}
+
+.business-hour{
+
+}
+
+.footer{
+    
+}
+
+.header-title{
+    font-size: 'Segoe UI', "굴림", "돋움", Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #fff;
+    font-stretch: ultra-expanded;
+}
+
+.cafe-title{
+    font-family: "Nanum Brush Script";
+    font-size: 26px;
+    font-weight: normal;
+    color: #fff;
+    text-align: center;
+    line-height: 45px;
+
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 300px;
+    height: 50px;
+    border-radius: 20px;
+}
+
+.btn-cafe-menu-all{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    line-height: 25px;
+
+    background-color: #D68814;
+    width: 83px;
+    height: 25px;
+    border-radius: 10px 0;
+}
+
+.btn-rland-location{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px; 
+    font-weight: bold;
+    color: #fff;
+    line-height: 40px;
+
+    background-color: rgba(110,152,9,0.65);
+    width: 173px;
+    height: 40px;
+    padding-left: 40px;
+    background-image: url("../images/location.png");
+    background-repeat: no-repeat;
+    background-position: left 15px center; 
+}

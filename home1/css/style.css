@@ -48,10 +48,13 @@ a{
 
 
 .first-section{
-    width: 100%;
     height: 55em;
-    background: url(../images/giphy.gif) no-repeat center;
-    background-size: 100% 100%;
+    background: url(../images/giphy.gif) no-repeat center/cover;
+}
+.second-section{
+    height: 58em;
+    background: url(../images/alert.gif) no-repeat center/cover;
+
 }
 
 /* ==================header=================== */
@@ -85,10 +88,17 @@ section a{
 
 
 
+
 /* ==================main================= */
-.first-text, second-text{
+.first-text{
     font-size: 2em;
-    padding: 3em;
+    padding: 2em;
+}
+.second-text{
+    font-size: 2em;
+    padding-top: 10em;
+    padding-left: 5em;
+
 }
 .text-impact{
     font-style: italic;
@@ -109,10 +119,5 @@ section a{
 .btn-trip-start a{
     color: #fff;
     
-}
-.image-main-first{
-    background: url("images/giphy.gif");
-}
-.image-main-first{
 }
 
